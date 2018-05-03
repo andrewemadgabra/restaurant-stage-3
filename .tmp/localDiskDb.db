@@ -21,9 +21,9 @@
           "Sunday": "12:00 pm - 4:00 pm, 5:30 pm - 11:00 pm"
         },
         "createdAt": 1504095563444,
-        "updatedAt": "2018-04-08T09:11:04.534Z",
+        "updatedAt": "2018-05-02T21:09:09.209Z",
         "id": 1,
-        "is_favorite": true
+        "is_favorite": false
       },
       {
         "name": "Emily",
