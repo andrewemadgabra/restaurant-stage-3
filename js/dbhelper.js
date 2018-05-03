@@ -112,12 +112,12 @@ class DBHelper {
 
     var xhr = new XMLHttpRequest();
     xhr.open("PUT", DBHelper.DATABASE_URL + '/' + id);
-    xhr.setRequesrestaurantstHeader('Content-type','application/json; charset=utf-8');
+    xhr.setRequestHeader('Content-type','application/json; charset=utf-8');
     xhr.onload = function () {
       var restaurant = JSON.parse(xhr.responseText);
       console.log(restaurant);
     }
-    xhr.send(json);   
+    xhr.send(json);
   }
 
   // update restaurant to be not favorite
